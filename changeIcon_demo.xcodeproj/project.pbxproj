@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8A3DA002062932000D98503 /* Icon1@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A3D9FF2062931F00D98503 /* Icon1@1x.png */; };
+		E8A3DA02206295F900D98503 /* Icon2@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A3DA01206295F900D98503 /* Icon2@1x.png */; };
+		E8A3DA04206295FE00D98503 /* Icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A3DA03206295FE00D98503 /* Icon2@2x.png */; };
+		E8A3DA062062960300D98503 /* Icon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8A3DA052062960300D98503 /* Icon2@3x.png */; };
 		E8C5956D2061BBC1006B06E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C5956C2061BBC1006B06E1 /* AppDelegate.swift */; };
 		E8C5956F2061BBC1006B06E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C5956E2061BBC1006B06E1 /* ViewController.swift */; };
 		E8C595722061BBC1006B06E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C595702061BBC1006B06E1 /* Main.storyboard */; };
 		E8C595742061BBC1006B06E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8C595732061BBC1006B06E1 /* Assets.xcassets */; };
 		E8C595772061BBC1006B06E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8C595752061BBC1006B06E1 /* LaunchScreen.storyboard */; };
+		E8C595802061BFF2006B06E1 /* Icon1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C5957F2061BFF2006B06E1 /* Icon1@2x.png */; };
+		E8C595822061BFFA006B06E1 /* Icon1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8C595812061BFFA006B06E1 /* Icon1@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8A3D9FF2062931F00D98503 /* Icon1@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon1@1x.png"; sourceTree = "<group>"; };
+		E8A3DA01206295F900D98503 /* Icon2@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon2@1x.png"; sourceTree = "<group>"; };
+		E8A3DA03206295FE00D98503 /* Icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon2@2x.png"; sourceTree = "<group>"; };
+		E8A3DA052062960300D98503 /* Icon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon2@3x.png"; sourceTree = "<group>"; };
 		E8C595692061BBC1006B06E1 /* changeIcon_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = changeIcon_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8C5956C2061BBC1006B06E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8C5956E2061BBC1006B06E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,8 @@
 		E8C595732061BBC1006B06E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8C595762061BBC1006B06E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8C595782061BBC1006B06E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C5957F2061BFF2006B06E1 /* Icon1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon1@2x.png"; sourceTree = "<group>"; };
+		E8C595812061BFFA006B06E1 /* Icon1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon1@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 		E8C595602061BBC1006B06E1 = {
 			isa = PBXGroup;
 			children = (
+				E8C5957E2061BF05006B06E1 /* icons */,
 				E8C5956B2061BBC1006B06E1 /* changeIcon_demo */,
 				E8C5956A2061BBC1006B06E1 /* Products */,
 			);
@@ -62,6 +75,19 @@
 				E8C595782061BBC1006B06E1 /* Info.plist */,
 			);
 			path = changeIcon_demo;
+			sourceTree = "<group>";
+		};
+		E8C5957E2061BF05006B06E1 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				E8A3D9FF2062931F00D98503 /* Icon1@1x.png */,
+				E8C5957F2061BFF2006B06E1 /* Icon1@2x.png */,
+				E8C595812061BFFA006B06E1 /* Icon1@3x.png */,
+				E8A3DA01206295F900D98503 /* Icon2@1x.png */,
+				E8A3DA03206295FE00D98503 /* Icon2@2x.png */,
+				E8A3DA052062960300D98503 /* Icon2@3x.png */,
+			);
+			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +149,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A3DA062062960300D98503 /* Icon2@3x.png in Resources */,
 				E8C595772061BBC1006B06E1 /* LaunchScreen.storyboard in Resources */,
+				E8C595822061BFFA006B06E1 /* Icon1@3x.png in Resources */,
+				E8A3DA04206295FE00D98503 /* Icon2@2x.png in Resources */,
+				E8A3DA02206295F900D98503 /* Icon2@1x.png in Resources */,
 				E8C595742061BBC1006B06E1 /* Assets.xcassets in Resources */,
+				E8A3DA002062932000D98503 /* Icon1@1x.png in Resources */,
+				E8C595802061BFF2006B06E1 /* Icon1@2x.png in Resources */,
 				E8C595722061BBC1006B06E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,11 +309,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GCPU83AAPV;
 				INFOPLIST_FILE = changeIcon_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Edwin.changeIcon-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,11 +325,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GCPU83AAPV;
 				INFOPLIST_FILE = changeIcon_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Edwin.changeIcon-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
